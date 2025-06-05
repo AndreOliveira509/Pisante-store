@@ -1,7 +1,9 @@
 const express = require('express');
+const cors = require('cors');
 const routes = require('./routes'); // Assuming routes.js is in the same directory
 const app = express();
 
+app.use(cors()); // Enable CORS for all routes
 app.use(express.json());
 app.use(routes); // Mount the routes at /api
 app.get('/', (req, res) => {
