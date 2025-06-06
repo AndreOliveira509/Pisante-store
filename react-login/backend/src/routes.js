@@ -3,7 +3,7 @@ const express = require('express');
 const routes = express.Router();
 const users = [{
     id: 1,
-    name: 'John Doe',
+    name: 'André Oliveira',
     email: 'contato@bitloop.com.br',
     password: '123456',
 }]
