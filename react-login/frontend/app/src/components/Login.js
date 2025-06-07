@@ -69,13 +69,7 @@ function Login() {
                 </div>
             ) : (
                 <div>
-                    <h2>Welcome, {user.name}!</h2>
-                    <button
-                        type='button'
-                        className='btn-logout'
-                        onClick={handleLogout}>
-                        Logout
-                    </button>
+                    <Home/>
                 </div>
             )}
         </div>
